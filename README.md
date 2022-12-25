@@ -1,0 +1,1 @@
+# North-west-corner-method
