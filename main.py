@@ -151,7 +151,7 @@ def NWCM(costs, demand, supply):
     x_ij = 0
     funk = 0
 
-    while (i <= m) and (j <= n):
+    while (i < m) and (j < n):
         x_ij = min(a[i], b[j])
         funk += c[i, j] * x_ij
         a[i] -= x_ij
